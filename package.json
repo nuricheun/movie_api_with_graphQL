@@ -5,5 +5,16 @@
   "main": "index.js",
   "repository": "https://github.com/nurinuriprettynuri/movie_api_with_graphQL.git",
   "author": "aliglaser <nooti777712@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
 }
